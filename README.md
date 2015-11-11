@@ -1,7 +1,7 @@
 # EZPods
 Easy CocoaPods tutorial for beginners.
 
-### Pods Installation
+### Pods Creation
 
 This method is not adviced if you have a large repo to maintain. This method is adviced for small repo's like [SwiftRandom](https://github.com/thellimist/SwiftRandom), [EZAlertController](https://github.com/thellimist/EZAlertController).
 
@@ -22,7 +22,9 @@ This method is not adviced if you have a large repo to maintain. This method is 
 
 [Check here](https://github.com/thellimist/EZPods/blob/master/Pod%20Creation.md)
 
-### Pods Update CheckList
+### Pods Update
+
+#### CheckList
 
 1. Update your project with `git pull`
 2. Update `s.version` inside `MyRepo.podspec`
