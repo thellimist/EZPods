@@ -1,5 +1,5 @@
 # EZPods
-Easy CocoaPods checklist and tutorial for beginners.
+Easy CocoaPods checklist and tutorial
 
 This method is not adviced if you have a large repo to maintain. This method is adviced for small repo's like [SwiftRandom](https://github.com/thellimist/SwiftRandom), [EZAlertController](https://github.com/thellimist/EZAlertController).
 
