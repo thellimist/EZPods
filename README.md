@@ -4,7 +4,7 @@ Easy CocoaPods checklist and tutorial
 This method is not recommended for maintaining large repos. This method is adviced for small repo's like [SwiftRandom](https://github.com/thellimist/SwiftRandom), [EZAlertController](https://github.com/thellimist/EZAlertController).
 
 - If this is your first time adding cocoapods check out [Steps In Detail](https://github.com/thellimist/EZPods#steps-in-detail).
-- If you are familiar with pods check out the [Pods Creation CheckList](https://github.com/thellimist/EZPods#pods-creation-checklist)
+- If you are familiar with pods check out the [Pods Creation CheckList](https://github.com/thellimist/EZPods#checklist)
 - If you want to update a already added pod checkout [Pods Update CheckList](https://github.com/thellimist/EZPods#pods-update-checklist)
 
 ### Pods Creation 
