@@ -3,13 +3,19 @@ Easy CocoaPods checklist and tutorial
 
 This method is not recommended for maintaining large repos. This method is adviced for small repo's like [SwiftRandom](https://github.com/thellimist/SwiftRandom), [EZAlertController](https://github.com/thellimist/EZAlertController).
 
-### Pods Creation CheckList
+- If this is your first time adding cocoapods check out [Steps In Detail](https://github.com/thellimist/EZPods#steps-in-detail).
+- If you are familiar with pods check out the [Pods Creation CheckList](https://github.com/thellimist/EZPods#pods-creation-checklist)
+- If you want to update a already added pod checkout [Pods Update CheckList](https://github.com/thellimist/EZPods#pods-update-checklist)
+
+### Pods Creation 
+
+#### CheckList
 
 1. [New Repo](https://github.com/new)
 2. "Initialize this repository with a README"
 3. License "MIT"
 4. `cd /your/path` & `mkdir MyRepo` & `cd MyRepo`
-5. `git init` & `remote add origin https://github.com/<username>/MyRepo.git` & `git pull`
+5. `git init` & `git remote add origin https://github.com/<username>/MyRepo.git` & `git pull`
 6. `touch myrepo.podspec` & [example podspec](https://github.com/thellimist/SwiftRandom/blob/master/SwiftRandom.podspec)
 7.  `pod lib lint MyRepo.podspec`. For errors `pod lib lint MyRepo.podspec --verbose`
 8.  `git add .` & `git commit -m "Added pods"` & `git push`
