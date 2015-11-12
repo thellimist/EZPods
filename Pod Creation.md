@@ -2,7 +2,7 @@
 
 ##### - Open Repo
 
-1. Create [new repo](https://github.com/new) (My advice don't first add pods on a temporary repo then add pods on your original project)
+1. Create [new repo](https://github.com/new) (My advice first add pods on a temporary repo before adding to your original project)
 2. Fill Repository name with your repo name. I'll use "myrepo" for this tutorial and will use "<" and ">" symbols for the parts you should change to your own.
 3. Click "Initialize this repository with a README"
 4. Add a license. I'll got with "MIT" for this tutorial.
