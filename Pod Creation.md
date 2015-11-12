@@ -5,21 +5,22 @@
 1. Create [new repo](https://github.com/new) (My advice first add pods on a temporary repo before adding to your original project)
 2. Fill Repository name with your repo name. I'll use "myrepo" for this tutorial and will use "<" and ">" symbols for the parts you should change to your own.
 3. Click "Initialize this repository with a README"
-4. Add a license. I'll got with "MIT" for this tutorial.
+4. Add a license. I'll use "MIT" for this tutorial.
 
 ##### - Pull Your Repo to Local
 
 1. Open Terminal. 
 2. Go where you want to store your repo with `cd </your/path>`. `mkdir <myrepo>`. `cd <myrepo>`
 3. Add git to your folder with `git init`
-4. Link your repo with `git remote add origin https://github.com/<username>/<myrepo>.git`. You can control with `git remote -v`.
+4. Link your repo with `git remote add origin https://github.com/<username>/<myrepo>.git`. (You can check if its working with `git remote -v`.)
 5. Pull your repo from github with `git pull`
 
 ##### - Add Cocoapods
 
 1. Install cocoapods: `sudo gem install cocoapods`. Write `pod --help` to check if it's working.
 2. Create `<myrepo>.podspec` with `touch <myrepo>.podspec`
-3. Open `<myrepo>.podspec` with an editor and paste the following. You can checkout this [example](https://github.com/thellimist/SwiftRandom/blob/master/SwiftRandom.podspec). For details check the [documentation](https://guides.cocoapods.org/syntax/podspec.html#specification)
+3. Open `<myrepo>.podspec` with an editor. Use Xcode or Sublime Text.
+4. Paste the following. You can checkout this [example](https://github.com/thellimist/SwiftRandom/blob/master/SwiftRandom.podspec). For details check the [documentation](https://guides.cocoapods.org/syntax/podspec.html#specification)
   ```
   Pod::Spec.new do |s|
   s.name             = "<myrepo>"
