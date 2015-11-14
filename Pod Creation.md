@@ -10,14 +10,12 @@
 ##### - Pull Your Repo to Local
 
 1. Open Terminal. 
-2. Go where you want to store your repo with `cd </your/path>`. `mkdir <myrepo>`. `cd <myrepo>`
-3. Add git to your folder with `git init`
+2. Go where your repo is `cd </your/path/<myrepo>` or create it with `cd </your/path>`. `mkdir <myrepo>`. `cd <myrepo>`
+3. Add git to your folder with `git init` 
 4. Link your repo with `git remote add origin https://github.com/<username>/<myrepo>.git`. (You can check if its working with `git remote -v` (Not git remove -v))
 5. Pull your repo from github with `git pull`
 6. Type: git pull origin master
 7. Type git commit
-
-
 
 ##### - Add Cocoapods
 
@@ -47,6 +45,6 @@
 5. Add newly changes to git with `git add .` then commit with `git commit -m "Added pods"`
 6. Push your changes to your remote repo with `git push`
 7. Create new release https://github.com/<username>/<myrepo> Click Releases -> Click New Version
-9. Write "0.1" to Tag Version. (Optional you can fill the "Release Title"). Make sure the version is identical with the `s.version` inside `<myrepo>.podspec`
-10. Write `pod trunk register name@example.org 'Your Name' --description='macbook pro'`
-11. After your new release open terminal and write `pod trunk push <myrepo>.podspec`. This will change the [CocoaPods Specs](https://github.com/CocoaPods/Specs) which will enable you to write `pod  '<myrepo>'` inside your `podfile`
+8. Write "0.1" to Tag Version. (Optional you can fill the "Release Title"). Make sure the version is identical with the `s.version` inside `<myrepo>.podspec`
+9. Write `pod trunk register name@example.org 'Your Name' --description='macbook pro'`
+10. After your new release open terminal and write `pod trunk push <myrepo>.podspec`. This will change the [CocoaPods Specs](https://github.com/CocoaPods/Specs) which will enable you to write `pod  '<myrepo>'` inside your `podfile`
