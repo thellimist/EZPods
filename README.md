@@ -28,7 +28,8 @@ This method is not recommended for maintaining large repos. This method is advic
 
 ### Pods Update CheckList
 
-1. Update your project with `git pull`
+1. Update your project with `git pull origin master
+`
 2. Update `s.version` inside `MyRepo.podspec`
 3. Check local errors with `pod lib lint MyRepo.podspec`
 4. `git add .` & `git commit -m "Update pods version"`
