@@ -33,13 +33,7 @@ This method is not recommended for maintaining large repos. This method is advic
 2. Update `s.version` inside `MyRepo.podspec`
 3. Check local errors with `pod lib lint MyRepo.podspec`
 4. `git add .` & `git commit -m "Update pods version"`
-5. `git push`
+5. `git push origin master`
 6. Make a new [release](`https://github.com/<username>/MyRepo/releases)
 7. `pod trunk push MyRepo.podspec`
-
-  
-
-  
-
-  
 
